@@ -1,0 +1,27 @@
+.singleWrap {
+  border-radius: 30px;
+  width: 80%;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #84cee9;
+  -webkit-box-shadow: 5px 5px 6px 0px #7f7f7f;
+  box-shadow: 5px 5px 6px 0px #7f7f7f;
+  .Title {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    h4 {
+      margin: 0;
+    }
+  }
+  p {
+    font-style: italic;
+    font-weight: lighter;
+    width: 100%;
+    font-size: 13px;
+    margin: 5px 0 0 0;
+    text-align: center;
+  }
+}
