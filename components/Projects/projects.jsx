@@ -1,9 +1,12 @@
 import { SingleProj } from "./SingleProj/singleproj";
+import projLogo from "../Images/projLogo0000.png";
+import Image from "next/image";
 import styles from "./styles.module.scss";
 
 export const Projects = () => {
   return (
     <div className={styles.ProjectsWrap}>
+      <Image src={projLogo} layout="responsive" />
       <SingleProj
         title="Ferdast"
         link="https://cb3-argo-two.vercel.app/"
