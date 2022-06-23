@@ -1,11 +1,13 @@
+@import "../../../styles/variables.scss";
+
 .singleWrap {
   border-radius: 30px;
   width: 80%;
   padding: 20px;
   margin: 0 auto;
-  background-color: #84cee9;
-  -webkit-box-shadow: 5px 5px 6px 0px #7f7f7f;
-  box-shadow: 5px 5px 6px 0px #7f7f7f;
+  background-color: $azzurro;
+  -webkit-box-shadow: 0px 0px 15px 5px $grigioChiaro;
+  box-shadow: 0px 0px 15px 5px $grigioChiaro;
   .Title {
     display: flex;
     flex-flow: row nowrap;

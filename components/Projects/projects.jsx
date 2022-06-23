@@ -1,12 +1,16 @@
 import { SingleProj } from "./SingleProj/singleproj";
-import projLogo from "../Images/projLogo0000.png";
-import Image from "next/image";
 import styles from "./styles.module.scss";
+import { FaTools } from "react-icons/fa";
 
 export const Projects = () => {
   return (
     <div className={styles.ProjectsWrap}>
-      <Image src={projLogo} layout="responsive" />
+      <div className={styles.title}>
+        <div className={styles.tools}>
+          <FaTools />
+        </div>
+        <h2>I miei progetti</h2>
+      </div>
       <SingleProj
         title="Ferdast"
         link="https://cb3-argo-two.vercel.app/"
