@@ -10,10 +10,10 @@ export const DefaultLayout = ({ children }) => {
 
       <footer>
         <div className={styles.flags}>
-          <Image src={Ita} />
+          <Image src={Ita} alt="ita flag" />
         </div>
         <div className={styles.flags}>
-          <Image src={Us} />
+          <Image src={Us} alt="us flag" />
         </div>
       </footer>
     </div>

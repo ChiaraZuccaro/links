@@ -3,7 +3,7 @@ import { RiLink } from "react-icons/ri";
 
 export const SingleProj = ({ title, link, description }) => {
   return (
-    <a href={link} target="_blank" className={styles.singleA}>
+    <a href={link} target="_blank" rel="noreferrer" className={styles.singleA}>
       <div className={styles.singleWrap}>
         <div className={styles.Title}>
           <h4>{title}</h4>

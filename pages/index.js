@@ -16,7 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.photo}>
-        <Image src={photo} layout="responsive" />
+        <Image src={photo} layout="responsive" alt="profile" />
       </div>
 
       <div className={styles.about}>

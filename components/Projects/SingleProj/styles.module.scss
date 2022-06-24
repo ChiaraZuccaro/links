@@ -67,20 +67,3 @@
     }
   }
 }
-
-.singleA:visited {
-  .singleWrap {
-    border: 4px $azzurro inset;
-    background-color: #a5d7eb;
-    color: $nero;
-    -webkit-box-shadow: 0px 0px 5px 0px $grigioChiaro;
-    box-shadow: 0px 0px 5px 0px $grigioChiaro;
-    transform: scale(0.9);
-    transition: all 0.3s ease-in-out;
-    .Title {
-      svg {
-        display: block;
-      }
-    }
-  }
-}
