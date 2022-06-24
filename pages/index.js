@@ -1,8 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import Us from "../components/Images/us-flag-round-icon0000.png";
-import Ita from "../components/Images/italy-512.png";
 import photo from "../components/Images/prova0000.jpg";
 import styles from "../styles/Home.module.scss";
 
@@ -28,32 +26,25 @@ export default function Home() {
           Quando, grazie all’università, ho scoperto il mondo della
           programmazione ho capito e confermato che la mia strada è la
           tecnologia, poco importa quanto sarà difficile, la costanza e
-          l’impegno porteranno sempre ottimi risultati!🔥👨‍💻 <br /> Il mio
-          percorso in Edgemony lo ha solamente dimostrato ulteriormente.
+          l’impegno porteranno sempre ottimi risultati!🔥👨‍💻
+        </p>
+        <p>
+          Il mio percorso in Edgemony lo ha solamente dimostrato ulteriormente.
         </p>
       </div>
 
       <div className={styles.Pages}>
         <Link href="myprojects">
           <a className={styles.buttons}>
-            <a>Progetti</a>
+            <p>Progetti</p>
           </a>
         </Link>
         <Link href="social">
           <a className={styles.buttons}>
-            <a>Social</a>
+            <p>Social</p>
           </a>
         </Link>
       </div>
-
-      <footer>
-        <div className={styles.flags}>
-          <Image src={Ita} />
-        </div>
-        <div className={styles.flags}>
-          <Image src={Us} />
-        </div>
-      </footer>
     </div>
   );
 }
