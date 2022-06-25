@@ -1,5 +1,7 @@
+import { Social } from "../../components/Social/social";
+
 const MySocial = () => {
-  return "ciao";
+  return <Social />;
 };
 
 export default MySocial;
