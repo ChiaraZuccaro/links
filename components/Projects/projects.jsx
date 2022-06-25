@@ -22,6 +22,7 @@ export const Projects = () => {
               title={obj.title}
               link={obj.link}
               description={obj.description}
+              img={obj.img}
               key={i}
             />
           ))}
