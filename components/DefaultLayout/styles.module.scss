@@ -1,6 +1,7 @@
 @import "../../styles/variables.scss";
 
 .default {
+  min-height: 100vh;
   footer {
     display: flex;
     flex-flow: row nowrap;

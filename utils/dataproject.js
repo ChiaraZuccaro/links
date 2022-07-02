@@ -1,6 +1,7 @@
 import weather from "./imgProj/weather.jpg";
 import bestviewgame from "./imgProj/bestviewgame.jpg";
 import ferdast from "./imgProj/ferdast.jpg";
+import fetest from "./imgProj/fe-test.jpg";
 
 const dataProjects = [
   {
@@ -22,6 +23,14 @@ const dataProjects = [
     img: weather,
     description:
       "Perfettamente adatta ad ogni dispositivo, applicazione totalmente in JavaScript vanilla dove è possibile visionare il meteo di tutte le città siciliane e non, basta aggiungere una qualsiasi città nell'apposita sezione e il gioco è fatto!",
+  },
+
+  {
+    title: "E-commerce test",
+    link: "http://fe-test-blond.vercel.app/",
+    img: fetest,
+    description:
+      "Fake e-commerce totalmente responsive sviluppato in 5 giorni per un test con next.js.",
   },
 ];
 
