@@ -13,8 +13,8 @@ export const Social = () => {
         </div>
       </Link>
       <div className={styles.linkSocial}>
-        {social.map((el) => (
-          <SocialCard info={el} />
+        {social.map((el, i) => (
+          <SocialCard info={el} key={i} />
         ))}
       </div>
     </div>

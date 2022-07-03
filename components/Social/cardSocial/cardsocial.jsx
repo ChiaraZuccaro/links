@@ -12,7 +12,7 @@ export const SocialCard = ({ info }) => {
       <div className={styles.cardSocial}>
         <h3>{info.social}</h3>
         <div className={styles.imageProf}>
-          <Image src={info.img} />
+          <Image src={info.img} alt="social profile" />
         </div>
       </div>
     </a>
