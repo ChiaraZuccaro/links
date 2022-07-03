@@ -1,0 +1,19 @@
+@import "../../styles/variables.scss";
+
+.socialWrap {
+  .socialLogo {
+    border: 8px $azzurro solid;
+    border-radius: 200px;
+    width: 70%;
+    padding: 33px;
+    -webkit-box-shadow: 0px 0px 15px 5px $grigioChiaro;
+    box-shadow: 0px 0px 15px 5px $grigioChiaro;
+    cursor: pointer;
+    color: $grigioChiaro;
+    margin: 20px auto;
+    svg {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

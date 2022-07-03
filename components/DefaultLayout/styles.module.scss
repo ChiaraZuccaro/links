@@ -1,6 +1,7 @@
 @import "../../styles/variables.scss";
 
 .default {
+  min-height: 100vh;
   footer {
     display: flex;
     flex-flow: row nowrap;
@@ -9,9 +10,9 @@
     .flags {
       width: 20%;
       span {
-        border-radius: 50px;
-        -webkit-box-shadow: 0px 0px 15px 5px $grigioChiaro;
-        box-shadow: 0px 0px 15px 5px $grigioChiaro;
+        border-radius: 1000px;
+        -webkit-box-shadow: 0px 0px 10px 3px $grigioChiaro;
+        box-shadow: 0px 0px 10px 3px $grigioChiaro;
       }
     }
   }
