@@ -1,0 +1,38 @@
+@import "../../../styles/variables.scss";
+
+.aCard {
+  width: 80%;
+
+  .cardSocial {
+    border-radius: 10px;
+    color: $nero;
+    font-family: $defaultFont;
+    background: #84cee9;
+    background: -moz-linear-gradient(
+      -45deg,
+      #84cee9 0%,
+      #5f94a8 40%,
+      #231f20 100%
+    );
+    background: -webkit-linear-gradient(
+      -45deg,
+      #84cee9 0%,
+      #5f94a8 40%,
+      #231f20 100%
+    );
+    background: linear-gradient(135deg, #84cee9 0%, #5f94a8 40%, #231f20 100%);
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    -webkit-box-shadow: 5px 5px 10px 0px #b9b9bb;
+    box-shadow: 5px 5px 10px 0px #b9b9bb;
+    .imageProf {
+      width: 50%;
+      span {
+        border-radius: 1000px;
+      }
+    }
+  }
+}
