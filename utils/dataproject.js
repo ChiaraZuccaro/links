@@ -3,6 +3,10 @@ import bestviewgame from "./imgProj/bestviewgame.jpg";
 import ferdast from "./imgProj/ferdast.jpg";
 import fetest from "./imgProj/fe-test.jpg";
 
+import insta from "./imgSocial/insta0000.jpg";
+import github from "./imgSocial/github0000.jpg";
+import linked from "./imgSocial/linked.jpg";
+
 const dataProjects = [
   {
     title: "Ferdast",
@@ -34,4 +38,22 @@ const dataProjects = [
   },
 ];
 
-export default dataProjects;
+const social = [
+  {
+    social: "LinkedIn",
+    link: "https://www.linkedin.com/in/chiara-zuccaro/",
+    img: linked,
+  },
+  {
+    social: "GitHub",
+    link: "https://github.com/ChiaraZuccaro",
+    img: github,
+  },
+  {
+    social: "Instagram",
+    link: "https://www.instagram.com/chiara_coding/",
+    img: insta,
+  },
+];
+
+export { dataProjects, social };
