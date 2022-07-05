@@ -7,7 +7,7 @@ import insta from "./imgSocial/insta0000.jpg";
 import github from "./imgSocial/github0000.jpg";
 import linked from "./imgSocial/linked.jpg";
 
-const dataProjects = [
+export const projects = [
   {
     title: "Ferdast",
     link: "https://cb3-argo-two.vercel.app/",
@@ -38,7 +38,7 @@ const dataProjects = [
   },
 ];
 
-const social = [
+export const social = [
   {
     social: "LinkedIn",
     link: "https://www.linkedin.com/in/chiara-zuccaro/",
@@ -55,5 +55,3 @@ const social = [
     img: insta,
   },
 ];
-
-export { dataProjects, social };

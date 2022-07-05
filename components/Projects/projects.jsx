@@ -1,8 +1,9 @@
 import { SingleProj } from "./SingleProj/singleproj";
-import dataProjects from "../../utils/dataproject";
+// import dataProjects from "../../utils/dataproject";
 import styles from "./styles.module.scss";
 import Link from "next/link";
 import { FaTools } from "react-icons/fa";
+import { projects } from "../../utils/dataproject";
 
 export const Projects = () => {
   return (
@@ -16,8 +17,8 @@ export const Projects = () => {
         <h2>I miei progetti</h2>
       </div>
       <div className={styles.projList}>
-        {dataProjects &&
-          dataProjects.map((obj, i) => (
+        {projects &&
+          projects.map((obj, i) => (
             <SingleProj
               title={obj.title}
               link={obj.link}
